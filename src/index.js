@@ -64,7 +64,10 @@ function showDogStuff(dog) {
                 isGoodDog: !dog.isGoodDog
             })
         })
-            .then(res => res.json()).then(dog => showDogStuff(dog))
+            .then(res => res.json()).then(dog => {
+                getDogs();
+                showDogStuff(dog)
+            })
     })
 }
 
@@ -75,5 +78,4 @@ function addFilterListener() {
         dogFilter.innerHTML = `Filter good dogs: ${FILTER_DOGS ? "ON" : "OFF"}`
         renderDogList()
     })
-
 }
