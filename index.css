@@ -6,7 +6,7 @@
 
 }
 
-#good-dog-filter {
+#pup-filter-button {
   margin-top: 1vh;
   width: 35vw;
   font-size: 1em;
@@ -14,7 +14,7 @@
   border-radius: 3em;
 }
 
-#dog-bar {
+#pup-bar {
   height: 15vh;
   background: skyblue;
   display: flex;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-#dog-bar span {
+#pup-bar span {
   height: 80%;
   width: 8vw;
   display: flex;
@@ -32,18 +32,18 @@
   border: 1px solid blue;
 }
 
-#dog-summary-container {
+#pup-summary-container {
   height: 75vh;
   text-align: center;
 }
 
-#dog-info {
+#pup-info {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
-#dog-info img {
+#pup-info img {
   max-width: 75vw;
   max-height: 25vw;
 }
